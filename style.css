@@ -1,12 +1,18 @@
-/* fonts */
+/*-------------------------
+         Google fonts 
+--------------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-/* common items */
+/*-------------------------
+         Common style
+--------------------------- */
 body{
     font-family: 'Poppins', sans-serif;
     
 }
-/* header style */
+/*-------------------------
+         header start 
+--------------------------- */
 header{
     width: 100%;
 }
@@ -55,8 +61,12 @@ header{
 .header-image{
     padding-top: 30px;
 }
-/* header end */
-/* main start */
+/*-------------------------
+         header end 
+--------------------------- */
+/*-------------------------
+        main start
+--------------------------- */
 main{
     width: 100%;
 }
@@ -83,7 +93,14 @@ main{
     margin-left: 36px;
     margin-bottom: 20px;
     border:0px;
+    cursor: pointer;
 }
+.main-first button a{
+    text-decoration:none;
+    color:black;
+    
+}
+
 .main-first button:nth-child(2){
     padding: 10px 39px;
 }
@@ -138,8 +155,12 @@ main{
     color: #fff;
     display: none;
 }
-/* main end */
-/* footer */
+/*-------------------------
+         main end
+--------------------------- */
+/*-------------------------
+         footer start 
+--------------------------- */
 .footer-all{
     background-color:#161616;
 }
@@ -168,6 +189,16 @@ hr{
     
     
 }
+/*-------------------------
+        footer end
+--------------------------- */
+
+/*-------------------------
+         media query 
+--------------------------- */
+/*-------------------------
+         phone divice 
+--------------------------- */
 @media only screen and (max-width:688px){
     header {
         width:100%;
@@ -299,6 +330,10 @@ hr{
         margin-left: 149px;
     }
 }
+
+/*-----------------------
+       second website
+ ------------------------ */
 .content-one{
     height: 242px;
     border: 1px solid #E8E8E8;
