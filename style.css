@@ -299,3 +299,27 @@ hr{
         margin-left: 149px;
     }
 }
+.content-one{
+    height: 242px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+
+.match{
+    display:flex;
+    column-gap: 10px;
+    margin-top: 53px;
+    justify-content: center
+    
+}
+.content-one-info h3{
+    margin-top:20px;
+    color: #161616;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.content-one-info p{
+    text-align: center;
+}
