@@ -1,3 +1,4 @@
+
 /*-------------------------
          Google fonts 
 --------------------------- */
@@ -20,7 +21,7 @@ header{
     display:grid;
     grid-template-columns:repeat(2, 1fr);
     justify-items: center;
-    background-color:#161616;
+    background-color:rgb(33, 36, 29);
     margin-left: 140px;
     margin-right:140px;
     padding-top:50px;
@@ -41,17 +42,18 @@ header{
 .btn{
     padding: 16px 25px;
     width:150px;
-    box-shadow:inset 0 0 0 0 #f9e506;
+    box-shadow:inset 0 0 0 0 #0067b8;
     transition:ease-out 0.3s;
     
     outline:none;
-    background:#DD0000;
+    background:#0067b8;
     border-radius: 5px;
     color: white;
     border: 0px;
 }
 .btn:hover{
-    box-shadow:inset 70px 0 0 0 #f9e506;
+    box-shadow:inset 70px 0 0 0 white;
+    
     cursor: pointer;
     color: black;
 }
@@ -79,7 +81,7 @@ main{
  .main-first {
     width: 220px;
     margin-left: 80px;
-    background: #161616;
+    background-color:rgb(33, 36, 29);
     height: 250px;
     border-radius: 10px;
     
@@ -106,7 +108,7 @@ main{
 }
 .main-first button:last-child{
     padding: 10px 54px;
-    background: #DD0000;
+    background: #0067b8;
     color:white;
 }
 .main-content{
@@ -148,7 +150,7 @@ main{
 .view-all{
     margin-left: 700px;
     margin-top: 45px;
-    background: #DD0000;
+    background: #0067b8;
     border-radius: 5px;
     padding: 12px 29px;
     border: none;
@@ -162,7 +164,7 @@ main{
          footer start 
 --------------------------- */
 .footer-all{
-    background-color:#161616;
+    background-color:rgb(33, 36, 29);
 }
 hr{
     border: 1px solid #D1D1D1;
@@ -207,7 +209,7 @@ hr{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
-        background-color: #161616;
+        background-color:rgb(33, 36, 29);
         border-radius: 30px;
         padding-top: 50px;
         padding-bottom: 50px;
@@ -261,7 +263,7 @@ hr{
         display:grid;
         grid-template-columns:repeat(2, 1fr);
         justify-items: center;
-        background-color:#161616;
+        background-color:rgb(33, 36, 29);
         margin-left: 30px;
         margin-right:0px;
         padding-top:50px;
@@ -318,7 +320,7 @@ hr{
     .view-all{
         margin-left: 335px;
         margin-top: 45px;
-        background: #DD0000;
+        background: #0067b8;
         border-radius: 5px;
         padding: 12px 29px;
         border: none;
